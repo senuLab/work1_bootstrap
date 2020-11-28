@@ -105,3 +105,56 @@ course
 .course-item {
   width: 30%;
 }
+
+/*------------------------------
+contact
+------------------------------*/
+.contact-message {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="email"] {
+  width: 600px;
+  border: 3px solid #d8d8d8;
+  font-size: 18px;
+  display: block;
+  margin: auto;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 999px;
+}
+
+.btn {
+  padding: 20px 60px;
+  display: inline-block;
+  background-color: #082b48;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.btn-register {
+  background-color: #ec6d64;
+  display: block;
+  margin: auto;
+}
+
+/*------------------------------
+footer
+------------------------------*/
+footer {
+  background-color: #082b48;
+  color: white;
+  padding: 20px 0px;
+}
+
+.copyright {
+  float: right;
+  font-size: 12px;
+}
