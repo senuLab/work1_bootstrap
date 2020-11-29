@@ -42,7 +42,7 @@ header
 ------------------------------*/
 header {
   line-height: 30px;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .header-left {
@@ -102,6 +102,7 @@ about
 
 .about-item img {
   width: 49%;
+  height: auto;
 }
 
 .about-item p {
@@ -133,6 +134,10 @@ course
 
 .course-item {
   width: 30%;
+}
+
+.course-item p {
+  margin-top: 10px;
 }
 
 /*------------------------------
@@ -185,4 +190,118 @@ footer {
 .copyright {
   float: right;
   font-size: 12px;
+}
+
+/*------------------------------
+responsive
+------------------------------*/
+@media only screen and (max-width: 767px) {
+  /*------------------------------
+  common
+  ------------------------------*/
+  .clear::after {
+    content: none;
+  }
+
+  /*------------------------------
+  header
+  ------------------------------*/
+  .header-left {
+    float: none;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  .header-right {
+    float: none;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .header-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-item {
+    float: none;
+    margin: 0;
+  }
+
+  /*------------------------------
+  top
+  ------------------------------*/
+  .top {
+    padding: 100px 0;
+  }
+
+  .top-title {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .top-message {
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+  /*------------------------------
+  about
+  ------------------------------*/
+  .about-title {
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .about-item {
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+
+  .about-item img {
+    width: 100%;
+  }
+
+  .about-item p {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  /*------------------------------
+  course
+  ------------------------------*/
+  .course-title {
+    font-size: 25px;
+  }
+
+  .course-list {
+    flex-direction: column;
+  }
+
+  .course-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  /*------------------------------
+  contact
+  ------------------------------*/
+  .contact-title {
+    font-size: 25px;
+  }
+
+  input[type="email"] {
+    width: 100%;
+    padding: 15px;
+  }
+
+  /*------------------------------
+  footer
+  ------------------------------*/
+  .copyright {
+    float: none;
+    font-size: 10px;
+  }
 }
