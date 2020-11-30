@@ -3,6 +3,7 @@ Chrome/Firefox/Edgeなど、各ブラウザはそれぞれデフォルトで効�
 何もしないと見え方が微妙に変わるので、デフォルトのCSSをリセットして
 ブラウザごとの表示の差異をなくすために書くのが「リセットCSS」です。
 ================================================================*/
+/* 
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -28,4 +29,4 @@ body {
 ol, ul {
   list-style: none;
   list-style-type: none;
-}
+} */

@@ -1,91 +1,119 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>30Day</title>
-    <link rel="stylesheet" href="./css/reset.css" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- Style CSS -->
     <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Icon -->
     <link rel="icon" href="./img/favicon.ico" />
+
+    <title>30Day</title>
   </head>
   <body>
     <header>
-      <div class="container clear">
-        <div class="header-left">
-          <h1>30DAYSトライアル</h1>
-        </div>
-        <div class="header-right">
-          <ul class="header-list">
-            <li class="header-item header-about"><a href="#">デイトラとは</a></li>
-            <li class="header-item header-course"><a href="#">コース一覧</a></li>
-            <li class="header-item header-contact"><a href="#">お問い合わせ</a></li>
-          </ul>
-        </div>
-      </div>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand font-weight-bold" href="#">30DAYSトライアル</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">デイトラとは<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">コース一覧<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">お問い合わせ<span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
     </header>
 
-    <section class="top">
+    <section class="top text-center py-5 mb-5">
       <div class="container">
-        <h2 class="top-title">
+        <h1 class="font-weight-bold display-5 mb-4">
           1日1題30日で<br />
           プロのWebエンジニアになろう！
-        </h2>
-        <p class="top-message">
-          毎日設定された課題をこなすだけ！<br />未経験から
+        </h1>
+        <p class="lead">
+          毎日設定された課題をこなすだけ！未経験から<br />
           30日でプログラミングスキルが身につきます
         </p>
       </div>
     </section>
 
-    <section class="about">
+    <section class="about mb-5">
       <div class="container">
-        <h2 class="about-title">デイトラとは</h2>
-        <div class="about-item">
-          <img src="./img/about.png" alt="" />
-          <p>
-            デイトラとは、無料で・迷わず・楽しく学べるプログラミング学習アプリです。
-            毎日設定された課題をこなしていくだけで、未経験から30日でプログラミングスキルが身につきます。
-            1日1題でプロのWebエンジニアを目指しましょう！
-          </p>
+        <h2 class="text-center font-weight-bold mb-5">デイトラとは</h2>
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col">
+            <img class="w-100 mb-3 mb-md-0" src="./img/about.png" alt="" />
+          </div>
+          <div class="col">
+            <p>
+              デイトラとは、無料で・迷わず・楽しく学べるプログラミング学習アプリです。
+              毎日設定された課題をこなしていくだけで、未経験から30日でプログラミングスキルが身につきます。
+              1日1題でプロのWebエンジニアを目指しましょう！
+            </p>
+          </div>
         </div>
-      </div>
     </section>
 
-    <section class="course">
+    <section class="course text-center pb-5">
       <div class="container">
-        <h2 class="course-title">コース一覧</h2>
-        <div class="course-list">
-          <div class="course-item">
-            <img src="./img/web_first.png">
+        <h2 class="font-weight-bold mb-5">コース一覧</h2>
+        <div class="row  row-cols-1 row-cols-md-3">
+          <div class="col">
+            <img class="w-100" src="./img/web_first.png">
             <p>HTML / CSS / Bootstrap</p>
           </div>
-          <div class="course-item">
-            <img src="./img/web_second.png">
+          <div class="col">
+            <img class="w-100" src="./img/web_second.png">
             <p>HTML / CSS / Javascript / jQuery</p>
           </div>
-          <div class="course-item">
-            <img src="./img/web_third.png">
+          <div class="col">
+            <img class="w-100" src="./img/web_third.png">
             <p>PHP / WordPress</p>
           </div>
         </div>
-      </div>
     </section>
 
-    <section class="contact">
+    <section class="contact pb-5 text-center pb-5">
       <div class="container">
-        <h2 class="contact-title">お問い合わせ</h2>
-        <p class="contact-message">さあ今日から30日間を始めよう！</p>
+        <h2 class="font-weight-bold">お問い合わせ</h2>
+        <p class="mt-5">さあ今日から30日間を始めよう！</p>
         <form action="#" method="POST">
-          <input type="email" placeholder="メールアドレス" />
-          <button class="start">無料で始める</button>
+          <div class="form-group">
+            <input type="email" class="form-control rounded-pill py-4 w-80 mx-auto" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="メールアドレス">
+          </div>
+          <button type="submit" class="btn btn-danger btn-lg px-5">無料で始める</button>
         </form>
         </div>
       </div>
     </section>
-    <footer>
-      <div class="container clear">
-        <p class="copyright">Copyright(C) 2020 東京フリーランス ALL Rights Reserved.</p>
+
+    <footer class="bg-dark text-white py-3">
+      <div class="container">
+        <p class="text-center text-md-right mb-0 h6-md">
+          Copyright(C) 2020 東京フリーランス ALL Rights Reserved.
+        </p>
       </div>
     </footer>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
   </body>
 </html>
